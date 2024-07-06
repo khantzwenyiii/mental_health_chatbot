@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 import nltk
 nltk.download('punkt')
+nltk.download('wordnet')
 import streamlit as st
 
 from nltk.stem import WordNetLemmatizer
