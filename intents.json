@@ -1,0 +1,685 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "My pleasure",
+                "You're Welcome"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mental health",
+            "patterns": [
+                "What is mental health?",
+                "Mental Health",
+                "Define Mental Health",
+                "What does mental health mean?"
+            ],
+            "responses": [
+                "Mental health refers to cognitive, emotional, and social well-being, influencing how we think, feel, and act."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "importance of mental health",
+            "patterns": [
+                "Why is mental health important?",
+                "Importance of mental health",
+                "Is mental health important?",
+                "Describe why mental health is important."
+            ],
+            "responses": [
+                "It is important because it affects our daily living, relationships, physical health, and ability to handle stress and make decisions."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mental health disorders",
+            "patterns": [
+                "What are common mental health disorders?",
+                "Mental health disorders",
+                "Describe some mental health disorders",
+                "Disorders related to mental health"
+            ],
+            "responses": [
+                "Depression, anxiety, bipolar disorder, schizophrenia, and eating disorders."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mental health symptoms",
+            "patterns": [
+                "What are common mental health symptoms?",
+                "Mental health symptoms",
+                "Describe some mental health symptoms",
+                "what are the symptoms of mental health?"
+            ],
+            "responses": [
+                "Persistent changes in mood, behavior, or thinking that affect daily functioning."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "depression symptoms",
+            "patterns": [
+                "What are common depression symptoms?",
+                "Depression symptoms",
+                "Describe some depression symptoms",
+                "What are the symptoms of depression?"
+            ],
+            "responses": [
+                "Persistent sadness, loss of interest in activities, changes in appetite and sleep, and feelings of worthlessness."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lifestyle and depression",
+            "patterns": [
+                "How can lifestyle changes help manage depression?",
+                "Depression Lifestyle",
+                "What lifestyles can cure depression?",
+                "Lifestyles to reduce depression"
+            ],
+            "responses": [
+                "Lifestyle changes such as regular exercise, maintaining a balanced diet, establishing a routine, ensuring adequate sleep, and engaging in enjoyable activities can improve mood and reduce symptoms of depression. Social support and reducing stress are also crucial."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "effective therapy depression",
+            "patterns": [
+                "What types of therapy are effective for treating depression?",
+                "Therapy for depression",
+                "Effective therapies for treating depression",
+                "What therapies are effective in treating depression"
+            ],
+            "responses": [
+                "Effective therapies include cognitive-behavioral therapy (CBT), interpersonal therapy (IPT), psychodynamic therapy, and dialectical behavior therapy (DBT). These therapies help individuals understand and change negative thought patterns, improve relationships, and develop coping strategies."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Medication and depression",
+            "patterns": [
+                "Can medication help with depression, and how does it work?",
+                "How can medication help with depression?",
+                "Medication for depression",
+                "How does medication work to cure depression?"
+            ],
+            "responses": [
+                "Some medication can help reduce depression. Antidepressants work by balancing chemicals in the brain that affect mood and emotions. Common types include selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), and tricyclic antidepressants (TCAs)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "depression definition",
+            "patterns": [
+                "What is depression?",
+                "What does depression mean?",
+                "Depression",
+                "Define Depression",
+                "What is the definition of depression?"
+            ],
+            "responses": [
+                "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems."
+            ]
+        },
+        {
+            "tag": "depression causes",
+            "patterns": [
+                "What causes depression?",
+                "Why do people get depressed?",
+                "Depression causes",
+                "What are the causes of depression?"
+            ],
+            "responses": [
+                "Depression can be caused by a variety of factors including genetic factors, biological differences, brain chemistry, hormonal changes, life events, trauma or abuse, and substance abuse."
+            ]
+        },
+        {
+            "tag": "depression treatment",
+            "patterns": [
+                "How is depression treated?",
+                "Treatment options for depression",
+                "Depression treatment",
+                "How to treat depression?"
+
+            ],
+            "responses": [
+                "Treatment options for depression include psychotherapy, medication, lifestyle changes, and support groups."
+            ]
+        },
+        {
+            "tag": "Depression Support",
+            "patterns": [
+                "What should I do if a loved one shows signs of depression?",
+                "How to support someone with depression?",
+                "How can I support someone in treating depression?"
+            ],
+            "responses": [
+                "Offer support and understanding, encourage them to seek professional help, and be patient. Listening without judgment and helping with daily tasks can also be beneficial. It’s important to avoid minimizing their feelings and to offer to accompany them to appointments if they’re comfortable with it."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anxiety symptoms",
+            "patterns": [
+                "What are the symptoms of anxiety?",
+                "How do I know if I have anxiety?",
+                "Signs of anxiety",
+                "Anxiety symptoms"
+            ],
+            "responses": [
+                "The symptoms of anxiety include feeling nervous, restless, or tense, having a sense of impending danger, panic, or doom, increased heart rate, breathing rapidly (hyperventilation), sweating, trembling, feeling weak or tired, and trouble concentrating or thinking about anything other than the present worry."
+            ]
+        },
+        {
+            "tag": "anxiety causes",
+            "patterns": [
+                "What causes anxiety?",
+                "Why do people get anxiety?",
+                "Anxiety causes",
+                "Things that can cause depression"
+            ],
+            "responses": [
+                "Anxiety can be caused by genetics, brain chemistry, environmental factors, and stress."
+            ]
+        },
+        {
+            "tag": "anxiety treatment",
+            "patterns": [
+                "How is anxiety treated?",
+                "Treatment options for anxiety",
+                "Anxiety treatment",
+                "How to treat anxiety?"
+            ],
+            "responses": [
+                "Treatment options for anxiety include cognitive-behavioral therapy (CBT), medication, lifestyle changes, and support groups."
+            ]
+        },
+        {
+            "tag": "Anxiety definition",
+            "patterns": [
+                "What is anxiety?",
+                "Define anxiety",
+                "What is the definition of Anxiety?",
+                "Definition of anxiety"
+            ],
+            "responses": [
+                "Anxiety is excessive worry or fear that can cause physical symptoms like a racing heart, sweating, and fatigue."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Difference between anxiety and stress",
+            "patterns": [
+                "How is stress different from anxiety?",
+                "What is the difference between anxiety and stress?",
+                "Differences between anxiety and stress",
+                "Anxiety and stress"
+            ],
+            "responses": [
+                "Stress is a response to a specific situation, while anxiety is a more general feeling of unease without a clear cause."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Types of Anxiety",
+            "patterns": [
+                "What are the different types of anxiety disorders?",
+                "What are the types of anxiety?",
+                "Describe some types of anxiety",
+                "types of anxiety",
+                "anxiety types"
+            ],
+            "responses": [
+                "Types of anxiety disorders include generalized anxiety disorder (GAD), panic disorder, social anxiety disorder, specific phobias, obsessive-compulsive disorder (OCD), and post-traumatic stress disorder (PTSD). Each type has distinct features and triggers."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Reduce and manage Anxiety",
+            "patterns": [
+                "How can mindfulness and relaxation techniques help with anxiety?",
+                "How can I reduce and manage anxiety?",
+                "Reduce and manage anxiety",
+                "How to reduce and manage anxiety",
+                "How to reduce anxiety?",
+                "How to manage anxiety?"
+            ],
+            "responses": [
+                "Mindfulness and relaxation techniques, such as deep breathing, progressive muscle relaxation, and meditation, can help reduce anxiety by calming the mind and body, improving focus, and promoting a sense of peace and well-being."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Triggering factors of Anxiety",
+            "patterns": [
+                "What are common triggers for anxiety, and how can they be managed?",
+                "What causes anxiety?",
+                "Common causes of anxiety",
+                "What triggers anxiety?",
+                "Triggering factors of anxiety"
+            ],
+            "responses": [
+                "Common triggers include stress, trauma, certain health conditions, and substance use. Managing triggers involves identifying and avoiding them when possible, using coping strategies such as mindfulness, and seeking professional help to develop a personalized management plan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Anxiety and cognitive-behavioral therapy (CBT)",
+            "patterns": [
+                "How can cognitive-behavioral therapy (CBT) help with anxiety?",
+                "Anxiety and cognitive-behavioral therapy (CBT)"
+            ],
+            "responses": [
+                "CBT helps individuals identify and change negative thought patterns and behaviors that contribute to anxiety. It teaches coping skills, problem-solving, and exposure techniques to reduce fear and improve emotional regulation."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Anxiety and medications",
+            "patterns": [
+                "What role do medications play in treating anxiety disorders?",
+                "medication and anxiety",
+                "Medications to treat anxiety",
+                "Common mediacations to treat anxiety"
+            ],
+            "responses": [
+                "Medication can be effective for treating anxiety disorders. Common medications include benzodiazepines for short-term relief and selective serotonin reuptake inhibitors (SSRIs) or serotonin and norepinephrine reuptake inhibitors (SNRIs) for long-term management. These medications help balance brain chemicals that regulate mood and anxiety."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "stress definition",
+            "patterns": [
+                "What is stress?",
+                "Stress?",
+                "Define stress",
+                "What is the definition of stress?"
+            ],
+            "responses": [
+                "Stress can be defined as a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives."
+            ]
+        },
+
+        {
+            "tag": "stress symptoms",
+            "patterns": [
+                "What are the symptoms of stress?",
+                "How do I know if I have stress?",
+                "symptoms of stress",
+                "Stress symptoms"
+            ],
+            "responses": [
+                "The symptoms of stress include headaches, muscle tension or pain, chest pain, fatigue, change in sex drive, stomach upset, and sleep problems."
+            ]
+        },
+        {
+            "tag": "stress causes",
+            "patterns": [
+                "What causes stress?",
+                "Why do people get stressed?",
+                "Stress causes",
+                "Causes of stress"
+            ],
+            "responses": [
+                "Stress can be caused by work pressure, financial problems, relationship issues, major life changes, health concerns, and uncertainty or fear."
+            ]
+        },
+        {
+            "tag": "stress management",
+            "patterns": [
+                "How can I manage stress?",
+                "Stress management techniques",
+                "Ways to manage stress",
+                "Stress management"
+            ],
+            "responses": [
+                "You can manage stress by exercising regularly, practicing relaxation techniques, managing your time effectively, setting realistic goals, taking breaks and prioritizing self-care, and seeking professional help if needed."
+            ]
+        },
+        {
+            "tag": "stress relief activities",
+            "patterns": [
+                "What activities can I do to relieve stress?",
+                "Activities to relieve stress",
+                "Stress relief activities"
+            ],
+            "responses": [
+                "Here are some activities that can help relieve stress: deep breathing exercises, listening to music, taking a walk, practicing mindfulness or meditation, engaging in a hobby, talking to a friend, and journaling thoughts and feelings."
+            ]
+        },
+        {
+            "tag": "stigma",
+            "patterns": [
+                "How can we reduce mental health stigma?"
+            ],
+            "responses": [
+                "Through education, open conversations, and promoting understanding and empathy."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "self-harm",
+            "patterns": [
+                "What is self-harm?",
+                "Self-harm"
+            ],
+            "responses": [
+                "Deliberate injury to oneself as a way to cope with emotional pain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "self harm prevention",
+            "patterns": [
+                "How can self-harm be prevented?",
+                "How to prevent self-harm",
+                "How can I prevent self-harm",
+                "Self harm prevention"
+            ],
+            "responses": [
+                "You can prevent self-harm through therapy, support, and developing healthier coping mechanisms."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mental health support",
+            "patterns": [
+                "How can I support a loved one with a mental health disorder?",
+                "How to support ones with mental issues?",
+                "Support people with mental issues"
+            ],
+            "responses": [
+                "You can support ones with mental issues by listening, offering support, and encouraging professional help."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mindfulness meditation for mental health",
+            "patterns": [
+                "What are the benefits of mindfulness meditation for mental health?",
+                "Mindfulness meditation for mental health",
+                "Meditation and mental health"
+            ],
+            "responses": [
+                "Mindfulness and Meditation reduces stress, improves focus, and enhances emotional regulation."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Healthy Mental Health signs",
+            "patterns": [
+                "What are the signs of good or healthy mental health?",
+                "How can I know if I have a healthy mental health?",
+                "Good mental health signs"
+            ],
+            "responses": [
+                "You are mentally stable if you are emotionally stable, have positive relationships, and effective coping with stress."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Healthy Mental Health Maintainance",
+            "patterns": [
+                "How can I maintain good mental health?",
+                "How to maintain good mental health?",
+                "How can I keep my mental health healthy?"
+            ],
+            "responses": [
+                "You can keep your mental health good and healthy through regular self-care, healthy lifestyle choices, and seeking support when needed."
+            ],
+            "context": [
+                ""
+            ]
+        },    
+        {
+            "tag": "self-care definition",
+            "patterns": [
+                "What is self-care and why is it important for mental health?",
+                "What is self-care?",
+                "Self-care",
+                "Define self-care"
+            ],
+            "responses": [
+                "Self-care is the practice of taking action to preserve or improve one's own health. Itinvolves activities that improve well-being and reduce stress, essential for maintaining mental health."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "practicing self-care",
+            "patterns": [
+                "How can I practice self-care daily?",
+                "How can self-care be practiced?",
+                "Practicing self-care"
+            ],
+            "responses": [
+                "Engage in regular exercise, healthy eating, adequate sleep, and relaxation techniques."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "positive_affirmations",
+            "patterns": [
+                "Tell me something positive",
+                "I need a positive affirmation",
+                "Can you give me a positive affirmation?"
+            ],
+            "responses": [
+                "You are strong and capable.",
+                "You can handle this.",
+                "You are valued and loved.",
+                "Take it one step at a time.",
+                "You are doing your best.",
+                "It’s okay to take a break."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_action",
+            "patterns": [
+                "Recommend an action movie",
+                "What action movie should I watch?",
+                "Suggest an action movie"
+            ],
+            "responses": [
+                "Here are some action movie recommendations: Mad Max: Fury Road, John Wick, The Dark Knight, Inception."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_comedy",
+            "patterns": [
+                "Recommend a comedy movie",
+                "What comedy movie should I watch?",
+                "Suggest a comedy movie"
+            ],
+            "responses": [
+                "Here are some comedy movie recommendations: Superbad, Step Brothers, The Grand Budapest Hotel, Parks and Recreation (TV Series)."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_drama",
+            "patterns": [
+                "Recommend a drama movie",
+                "What drama movie should I watch?",
+                "Suggest a drama movie"
+            ],
+            "responses": [
+                "Here are some drama movie recommendations: The Shawshank Redemption, Forrest Gump, The Godfather, Schindler's List."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_horror",
+            "patterns": [
+                "Recommend a horror movie",
+                "What horror movie should I watch?",
+                "Suggest a horror movie"
+            ],
+            "responses": [
+                "Here are some horror movie recommendations: The Conjuring, Get Out, A Quiet Place, Hereditary."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_romance",
+            "patterns": [
+                "Recommend a romance movie",
+                "What romance movie should I watch?",
+                "Suggest a romance movie"
+            ],
+            "responses": [
+                "Here are some romance movie recommendations: The Notebook, La La Land, Pride and Prejudice, Crazy Rich Asians."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_scifi",
+            "patterns": [
+                "Recommend a sci-fi movie",
+                "What sci-fi movie should I watch?",
+                "Suggest a sci-fi movie"
+            ],
+            "responses": [
+                "Here are some sci-fi movie recommendations: Blade Runner 2049, Interstellar, The Matrix, Arrival."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_fantasy",
+            "patterns": [
+                "Recommend a fantasy movie",
+                "What fantasy movie should I watch?",
+                "Suggest a fantasy movie"
+            ],
+            "responses": [
+                "Here are some fantasy movie recommendations: The Lord of the Rings, Harry Potter series, The Chronicles of Narnia, Pan's Labyrinth."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_documentary",
+            "patterns": [
+                "Recommend a documentary",
+                "What documentary should I watch?",
+                "Suggest a documentary"
+            ],
+            "responses": [
+                "Here are some documentary recommendations: The Social Dilemma, My Octopus Teacher, 13th, Free Solo."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_animated",
+            "patterns": [
+                "Recommend an animated movie",
+                "What animated movie should I watch?",
+                "Suggest an animated movie"
+            ],
+            "responses": [
+                "Here are some animated movie recommendations: Spirited Away, Coco, Toy Story series, The Lion King."
+            ]
+        },
+        {
+            "tag": "movie_recommendations_mystery",
+            "patterns": [
+                "Recommend a mystery movie",
+                "What mystery movie should I watch?",
+                "Suggest a mystery movie"
+            ],
+            "responses": [
+                "Here are some mystery movie recommendations: Gone Girl, Knives Out, Shutter Island, The Girl with the Dragon Tattoo."
+            ]
+        }
+    ]
+}
