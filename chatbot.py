@@ -3,6 +3,7 @@ import json
 import pickle
 import numpy as np
 import nltk
+nltk.download('punkt')
 import streamlit as st
 
 from nltk.stem import WordNetLemmatizer
